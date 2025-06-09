@@ -1,0 +1,27 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 25px;
+    background-color: #513d01;
+    color: bisque;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.task-text {
+   width: 70%;
+   border: none; 
+   padding: 5px;
+   font-size: 20px;
+}
+
+.task-text:focus {
+    outline: none;
+}
+
+.task-icon {
+    margin-left: 10px;
+    cursor: pointer;
+}
