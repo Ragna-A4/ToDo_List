@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import InputString from './Components/InputString';
-import { Todo } from './model';
+import InputString from '../InputString/InputString';
+import TasksList from '../TasksList/TasksList';
+import { Todo } from '../../model';
 
 const App: React.FC = () => {
 
@@ -22,6 +23,7 @@ const App: React.FC = () => {
     <div className="App">
       <span className="heading">ToDo List</span>
       <InputString todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
+      <TasksList tasks={tasks} setTasks={setTasks}/>
     </div>
     );
 };
