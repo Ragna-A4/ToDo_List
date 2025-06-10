@@ -1,8 +1,8 @@
 .task {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    max-height: 25px;
     background-color: #513d01;
     color: bisque;
     border-radius: 30px;
@@ -10,11 +10,24 @@
     margin-top: 15px;
 }
 
+.task-edit-input{
+    width: 70%;
+    border: none;
+    background: none;
+    outline: none;
+    color:bisque;
+    font-size: 25px;
+}
+
 .task-text {
    width: 70%;
    border: none; 
    padding: 5px;
    font-size: 20px;
+}
+
+.task-text_done {
+    text-decoration: line-through;
 }
 
 .task-text:focus {
