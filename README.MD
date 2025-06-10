@@ -1,6 +1,6 @@
 # Todo List на React + TypeScript
 
-![Todo List Preview][preview.png]
+![Todo List Preview](preview.png)
 
 Простое приложение для управления задачами с возможностью:
 - Добавления новых задач
